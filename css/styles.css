@@ -12,6 +12,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text);
   font-size: 16px;
+  letter-spacing: 0.02em;
+  background-color: var(--primary-background-color);
 }
 
 .list {
@@ -41,7 +43,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .header-list .link:hover,
@@ -59,7 +60,6 @@ body {
 
 .contacts .link {
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--primary-text);
 }
 
@@ -93,7 +93,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--accent-color);
+  background-color: var(--third-complementary-color);
 }
 
 .hero-btn:active {
@@ -109,7 +109,6 @@ body {
 
 .text {
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .second-title {
@@ -127,6 +126,35 @@ body {
 
 .team-item {
   background: var(--primary-background-color);
+}
+
+.site-filters .button {
+  font-family: inherit;
+  color: var(--accent-color);
+  background-color: var(--second-complementary-color);
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.site-filters .button:hover,
+.site-filters .button:focus {
+  color: var(--primary-background-color);
+  background-color: var(--third-complementary-color);
+}
+
+.portfolio-list .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.portfolio-list .text {
+  color: var(--primary-text);
 }
 
 .footer {
@@ -150,28 +178,4 @@ body {
 
 .footer .text {
   color: var(--second-complementary-color);
-}
-
-.site-filters .button {
-  font-family: inherit;
-  color: var(--accent-color);
-  background-color: var(--second-complementary-color);
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-
-.site-filters .button:hover,
-.site-filters .button:focus {
-  color: var(--primary-background-color);
-  background-color: var(--third-complementary-color);
-}
-
-.portfolio-list .title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
 }
